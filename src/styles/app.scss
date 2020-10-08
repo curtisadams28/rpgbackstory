@@ -1,0 +1,29 @@
+@font-face {
+  font-family: libre-regular;
+  src: url('../fonts/LibreBaskerville-Regular.ttf');
+}
+@font-face {
+  font-family: libre-bold;
+  src: url('../fonts/LibreBaskerville-Bold.ttf');
+}
+@font-face {
+  font-family: nunito-regular;
+  src: url('../fonts/Nunito-Regular.ttf');
+}
+
+h1, h2 {
+  font-family: libre-bold sans-serif;
+}
+
+h3, h4, h5 {
+  font-family: libre-regular sans-serif;
+}
+
+p, a, li, label {
+  font-family: nunito-regular sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
