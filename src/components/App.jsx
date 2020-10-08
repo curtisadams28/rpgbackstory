@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from './Nav';
 
-import '../styles/app.scss';
+import '../styles/_app.scss';
 
 function App() {
   return (

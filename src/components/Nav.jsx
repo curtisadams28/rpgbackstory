@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import '../styles/nav.scss';
+import '../styles/_nav.scss';
+import logo from '../img/logo.svg'
 
 class Nav extends Component {
   render() {
     return (
-      <div className="nav"><h1 className="headerMain">rpgbackstory.</h1></div>
+      <div className="nav"><img className="headerMain" src={logo} alt="rpgbackstory"/></div>
     );
   }
 }

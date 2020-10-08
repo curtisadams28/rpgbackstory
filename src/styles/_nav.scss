@@ -1,0 +1,10 @@
+@import "./variables";
+.nav {
+  background-color: $nav-background;
+  height: 85px;
+  display: flex;
+  .headerMain {
+    width: $header-width;
+    padding-left: 50px;
+  }
+}
